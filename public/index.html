@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+    body
+    {
+    background-image: url('https://cdn.wallpapersafari.com/24/66/1Fcntd.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+  background-size: cover;
+    font-family: 'Georgia';
+   
+}
+.login{
+        width: 350px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 300px;
+        padding: 70px;
+        background:transparent;
+        border-radius: 30px ;
+        border-style: solid;
+  border-width: 4px;
+  color: rgba(92, 86, 86, 0.227);
+
+}
+h1{
+    text-align: center;
+    color: midnightblue;
+    padding: 20px;
+}
+label{
+    color:rgb(24, 22, 22);
+    font-size: 17px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border-style: groove;
+    padding-left: 8px;
+
+}
+
+
+.container .btn {
+    
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 13px;
+    padding: 13px 17px;
+    border: none;
+    border-style: groove;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+</style>
+</head>
+<body>
+    <center><h1>Login Form</h1></center><br>
+    <div class="login">
+  <form method="post" action="\add" >
+        <label><b>Email</b></label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br><br>
+        <label><b>Password</b></label><br>
+        <input type="password" name="" id="email" placeholder="password">
+        <br><br>
+        <label><b> Confirm Password</b></label>
+        <input type="Password" name="cpass" id="email" placeholder="Confirm Password">
+          <br><br>
+        <div class="container">
+        <center><button type="submit" class="btn"><b>Login</b></button></center>
+        </div>   
+    </form>
+</div>
+
+</body>
+
+
+</html>

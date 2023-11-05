@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300&family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="sample.css">
+<style>
+    form{
+        margin-left: 25%;
+    }
+    #name
+    {
+        width: 62%;
+    }
+    #ph{
+        width: 100%;
+    }
+    #button{
+        background-color: rgb(76, 0, 252);
+        width:14%;
+        height: 35px;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    #button:hover{
+        background-color: green;
+    }
+</style>
+</head>
+<body>
+    <div class="blue">
+        <div class="header">
+            
+            <ul>
+                <p>Alleppey Boat House</p>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">HouseBoat</a>
+                </li>
+                <li>
+                    <a href="food.html">Food</a>
+                </li>
+                <li>
+                    <a href="review.html">Review</a>
+                </li>
+                <li>
+                    <a href="#">Book a Trip</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <div class="containers">
+        <b>About us</b>
+    </div><br><br><br>
+    <center><h2>Booking Form</h2>
+        <p style="font-size: 17px;">Enter your details and our team will get back to you ASAP!</p>
+    </center>
+        <form action="/submit" method="POST">
+            Name <br>
+            <input type="text" id="name" name="name" required><br><br>
+            <table width="62%" line-height="1">
+            <tr>
+                <td >Phonenumber</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td><input type="number" id="ph" name="phonenum" required></td>
+                <td><input type="email" id="ph"  name="email" required></td>
+
+            </tr>
+            </table><br>
+            <table width="62%" line-height="1">
+            <tr>
+                <td >Password</td>
+                <td>Confirm Password</td>
+            </tr>
+            <tr width="62%">
+                <td  ><input type="password"  name="pass" required></td>
+                <td><input type="password" name="cpass" required></td>
+            </tr>
+        </table><br>
+            <table width="62%" >
+                <tr >
+                    <td >Date of Booking</td>
+                    <td>Number of Persons</td>
+                   
+                </tr>
+                <tr>
+                    <td ><input type="text" id="ph" name="date" required></td>
+                    <td><input type="number" id="ph" required></td>
+                </tr>
+                </table><br>
+                Houseboat Type<br>
+                <input type="text" placeholder="eg.1 Bedroom Houseboat " id="name" name="boattype" height="10%"><br><br>
+                Message<br>
+                <textarea name="text" cols="90" rows="5" required></textarea><br><br>
+                <input type="submit" id="button" value="Book now">
+        </form><br><br>
+    
+    
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="single-box">
+                            <img src="img/logo.png" alt="">
+                            <h6 class="boat" style="top: 1px;">Alleppey Boat House</h6>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+                        <h3>We Accept</h3>
+                        <div class="card-area">
+                                <i class="fa fa-cc-visa"></i>
+                                <i class="fa fa-credit-card"></i>
+                                <i class="fa fa-cc-mastercard"></i>
+                                <i class="fa fa-cc-paypal"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-5">
+                        <div class="single-box">
+                            <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Package</a></li>
+                            <li><a href="#">Book a trip</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-2 col-sm-5">
+                        <div class="single-box">
+                            <h2>Other Links</h2>
+                        <ul>
+                            <li><a href="#">Terms & Conditons</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                        </div>                    
+                    </div>
+                    <div class="col-lg-2 col-sm-5">
+                        <div class="single-box">
+                            <h2>Get in Touch</h2>
+                        <ul>
+                            <li><a href="#">Address:</a></li>
+                            <li><a href="#">Phone: +91 703480877</a></li>
+                            <li><a href="#">Whatsapp:+91 7034808777</a></li>
+                        </ul>
+                        </div>                    
+                    </div>
+                   
+            </div>
+        </footer>
+    
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js">
+        
+    </div>
+</body>
+</html>
